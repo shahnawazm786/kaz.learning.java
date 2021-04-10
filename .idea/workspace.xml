@@ -37,9 +37,22 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.Demo1">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practical.Demo" />
+      <module name="kaz.learning.java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practical.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practical.Demo1" />
       <module name="kaz.learning.java" />
       <extension name="coverage">
         <pattern>
@@ -79,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Depersist" />
         <item itemvalue="Application.Persist" />
