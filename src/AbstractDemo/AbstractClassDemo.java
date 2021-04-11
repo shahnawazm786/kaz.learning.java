@@ -1,5 +1,8 @@
 package AbstractDemo;
 
+/**
+ * Abstract class example
+ */
 public class AbstractClassDemo extends MyAbstractClass{
     @Override
     void Show() {
