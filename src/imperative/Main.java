@@ -7,16 +7,34 @@ import imperative.Main.Person.Gender;
 
 public class Main {
 	public static void main(String[] args) {
-		List<Person> person=List.of(
+		List<Person> people=List.of(
 			new Person("John",Gender.MALE),
 			new Person("Maria",Gender.FEMALE),
 			new Person("Raj",Gender.MALE),
-			new Person("Sanjay",Gender.MALE)
+			new Person("Sanjay",Gender.MALE),
+			new Person("Sangeeta",Gender.FEMALE),
+			new Person("Sanjana",Gender.FEMALE)
 				);
+		// Imperative example
+				List<Person> female=new ArrayList<>();
+				for(Person person:people) {
+				if(Gender.FEMALE.equals(person.gender))
+				{
+					female.add(person);
+				}
+				}
+				System.out.println(female);
+				
+				List<Person> male=new ArrayList<>();
+				for(Person person:people) {
+					if(Gender.MALE.equals(person.gender)) {
+						male.add(person);
+					}
+				}
+				System.out.println(male);
+				
 	}
-	// Imperative example
-	List<Person> female=new ArrayList<Person>();
-	
+			
 public static class Person{
 	private final String name;
 	private final Gender gender;
