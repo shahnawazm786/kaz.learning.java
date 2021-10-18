@@ -1,5 +1,6 @@
 package imperative;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import imperative.Main.Person.Gender;
@@ -13,6 +14,9 @@ public class Main {
 			new Person("Sanjay",Gender.MALE)
 				);
 	}
+	// Imperative example
+	List<Person> female=new ArrayList<Person>();
+	
 public static class Person{
 	private final String name;
 	private final Gender gender;
