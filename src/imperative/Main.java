@@ -32,6 +32,9 @@ public class Main {
 					}
 				}
 				System.out.println(male);
+				for(Person p:female) {
+					System.out.println(p);
+				}
 				
 	}
 			
