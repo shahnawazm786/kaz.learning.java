@@ -17,6 +17,12 @@ public class CollectionDemo {
 		System.out.println(fruits);
 		fruits.remove("orange"); //object not found but exception is not raised
 		System.out.println(fruits);
+		boolean isContains=fruits.contains("mango");
+		System.out.println(isContains);
+		fruits.forEach((element) -> {
+			System.out.println(element);
+		});
+		
 	}
 
 }
