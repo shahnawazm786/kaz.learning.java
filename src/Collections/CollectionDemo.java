@@ -2,6 +2,7 @@ package Collections;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 public class CollectionDemo {
 
@@ -23,6 +24,15 @@ public class CollectionDemo {
 			System.out.println(element);
 		});
 		
+		List<String> course=new ArrayList<>();
+		course.add("Java");
+		course.add("C++");
+		course.add("Oracle");
+		course.add("C Language");
+		course.add("SQL Server");
+		course.forEach((elem)->{
+			System.out.println(elem);
+		});
 	}
 
 }
