@@ -10,6 +10,9 @@ public class Example_01 {
 		System.out.println(number.stream().filter(num->num%2==0)
 				.mapToInt(e->e*factor).sum()
 				);
+	for(Integer a:number) {
+		System.out.println(a);
+	}
 	}
 
 }
