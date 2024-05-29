@@ -1,0 +1,28 @@
+package com.coding.Practical;
+
+import java.util.Scanner;
+
+public class CheckCharacterClass {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Example of Turnery operator");
+        System.out.println("Enter any character - ");
+        char c = sc.next().charAt(0);
+        String exp=(c >= 'A' & c<='Z') |(c>='a' & c<='z')? "Alphabet":"not a Alphabet";
+        System.out.println(exp);
+        System.out.println("Example of if - else");
+        // second way
+        System.out.println("Enter any character - ");
+         c = sc.next().charAt(0);
+
+         if((c >= 'A' & c<='Z') |(c>='a' & c<='z')){
+             System.out.println("Alphabet");
+         }
+         else {
+             System.out.println("Not a Alphabet");
+         }
+
+
+
+    }
+}
